@@ -36,13 +36,16 @@ a{
 }
 a:hover{
     color: #0000c4;
-    
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
 }
 li{
     color: #149900;
     margin: auto;
     list-style: none;
     text-align: center;
+  
 }
 .col-left {
     display: block;
