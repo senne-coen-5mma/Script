@@ -1,3 +1,13 @@
+@font-face {
+        font-family: Alphabetized Cassette Tapes;
+        src: url(alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf);
+}
+
+@font-face {
+        font-family: ;
+        src: url();
+}
+
 html {
         margin-top: 0px;
         margin: 0px;
