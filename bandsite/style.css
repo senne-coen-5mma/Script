@@ -130,10 +130,6 @@ body{
         color: #000000;
         text-align: left;
         margin-bottom: 1px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-between;
-        gap: 5%;
 }
 .smoke_mirrors{
         font-family: El Messiri;
@@ -144,10 +140,6 @@ body{
         color: #000000;
         text-align: left;
         margin-bottom: 1px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-between;
-        gap: 5%;
 }
 .evolve{
         font-family: El Messiri;
@@ -209,20 +201,6 @@ body{
         text-align: left;
         margin-bottom: 5px;
         background-color: #90d1df;
-}
-.mister{
-        font-family: El Messiri;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: normal;
-        color: #000000;
-        text-align: left;
-        margin-bottom: 1px;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-between;
-        gap: 5%;
 }
 .h5{
         font-family: Devil Breeze;
