@@ -2,6 +2,9 @@
     font-family: Alphabetized Cassette Tapes;
     src: url(alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf);
 }
+@font-face {
+    font-family:el messiri ;
+    src: url(El_Messiri/ElMessiri-VariableFont_wght.ttf);
 html{
     background-color: black;
     color: whitesmoke;
