@@ -5,11 +5,11 @@
 
 @font-face {
         font-family: devil breeze;
-        src: url(devil-breeze/Devil\ Breeze\ Bold.ttf);
+        src: url(devil-breeze/Devil\ Breeze\ Medium.ttf);
 }
 @font-face {
         font-family: el messiri;
-        src: url(El_Messiri/static/ElMessiri-Regular.ttf);
+        src: url(El_Messiri/ElMessiri-Regular.ttf);
 }
 html {
         margin-top: 0px;
