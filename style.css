@@ -4,7 +4,7 @@
 }
 @font-face {
     font-family: el messiri;
-    src: url(El_Messiri/static/ElMessiri-Regular.ttf);
+    src: url(El_Messiri/);
 }
 html{
     background-color: black;
