@@ -14,6 +14,22 @@ html {
         margin-top: 0px;
         margin: 0px;
 }
+*{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0; 
+    }
+.container{
+        width: 85%;
+        margin: auto;
+        flex-flow: row wrap;
+    }
+.albums-flex{ display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: space-between;
+        gap: 5%;
+        margin-bottom: 40px;
+}
 nav{
         text-align: center;
 }
@@ -117,13 +133,8 @@ body{
         font-weight: 700;
         letter-spacing: normal;
         color: #000000;
-        text-align: left;
-        margin-bottom: 5px;
+        text-align: left;;
         background-color: #fbdd1e ;
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-between;
-        gap: 5%;
 }
 .Albums{
         font-family: El Messiri;
