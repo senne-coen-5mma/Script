@@ -113,10 +113,10 @@ body{
 .leden-van-het-heden-tekst{
         background-color: #000000;
         color: #90d1df;
-        font-family: El Messiri;
+        font-family: fEl Messiri;
         font-size: 15px;
 }
-.h2{
+h2{
         font-family: devil breeze;
         font-size: 50px;
         font-style: normal;
@@ -219,7 +219,7 @@ body{
         text-align: left;
         margin-bottom: 1px;
 }
-.h4{
+h4{
         font-family: Devil Breeze;
         font-size: 20px;
         font-style: normal;
@@ -230,7 +230,7 @@ body{
         margin-bottom: 5px;
         background-color: #90d1df;
 }
-.h5{
+h5{
         font-family: Devil Breeze;
         font-size: 15px;
         font-style: normal;
