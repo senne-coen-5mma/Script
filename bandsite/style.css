@@ -151,6 +151,8 @@ h5{
 .img1{
         width: 50vw;
         width: 360px;
+        display: flex;
+        justify-content: space-between;
 }
 .night_visions{
         font-family: El Messiri;
