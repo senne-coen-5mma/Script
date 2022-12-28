@@ -51,6 +51,38 @@ nav li a:hover {
                 linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
         transition: 2s;
 }
+h2{
+        font-family: devil breeze;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: #df4540 ;
+}
+h4{
+        font-family: Devil Breeze;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: #90d1df;
+}
+h5{
+        font-family: Devil Breeze;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 5px; 
+        background-color: #6f69ae;
+}
 .title {
         font-family: devil breeze;
         font-size: 100px;
@@ -73,16 +105,6 @@ nav li a:hover {
 .Informatie{
         background-color: #df4540;
         color: #000000;
-}
-h2{
-        font-family: devil breeze;
-        font-size: 50px;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: normal;
-        text-align: left;
-        margin-bottom: 5px;
-        background-color: #df4540 ;
 }
 .albums{
         font-family: Devil Breeze;
@@ -205,28 +227,6 @@ body{
         color: #000000;
         text-align: left;
         margin-bottom: 1px;
-}
-h4{
-        font-family: Devil Breeze;
-        font-size: 20px;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: normal;
-        color: #000000;
-        text-align: left;
-        margin-bottom: 5px;
-        background-color: #90d1df;
-}
-h5{
-        font-family: Devil Breeze;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: normal;
-        color: #000000;
-        text-align: left;
-        margin-bottom: 5px; 
-        background-color: #6f69ae;
 }
 .top{
         list-style-type: none;
