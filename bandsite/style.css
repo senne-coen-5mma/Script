@@ -51,6 +51,18 @@ nav li a:hover {
                 linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
         transition: 2s;
 }
+body{
+        font-family:El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        background-color: #ffffff;
+        text-align: left;
+        margin-bottom: 1px;
+        margin-left: 50px;
+}
 h2{
         font-family: devil breeze;
         font-size: 50px;
@@ -106,26 +118,6 @@ h5{
         background-color: #df4540;
         color: #000000;
 }
-.albums{
-        font-family: Devil Breeze;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 700;
-        letter-spacing: normal;
-        color: #000000;
-        text-align: left;;
-        background-color: #fbdd1e ;
-}
-.Albums{
-        font-family: El Messiri;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: normal;
-        color: #000000;
-        text-align: left;
-        margin-bottom: 1px;
-}
 .oud-leden{
         color: #000000;
         background-color: #90d1df;
@@ -143,17 +135,15 @@ h5{
         text-align: center;
         margin: auto;
 }
-body{
-        font-family:El Messiri;
+.Albums{
+        font-family: El Messiri;
         font-size: 15px;
         font-style: normal;
         font-weight: 400;
         letter-spacing: normal;
         color: #000000;
-        background-color: #ffffff;
         text-align: left;
         margin-bottom: 1px;
-        margin-left: 50px;
 }
 #discografie{
         width: 400px;
