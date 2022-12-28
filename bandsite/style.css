@@ -148,6 +148,10 @@ h5{
 #discografie{
         width: 400px;
 }
+.img1{
+        width: 50vw;
+        width: 360px;
+}
 .night_visions{
         font-family: El Messiri;
         font-size: 15px;
@@ -177,6 +181,7 @@ h5{
         color: #000000;
         text-align: left;
         margin-bottom: 1px;
+        width: 400px;
 }
 .origins{
         font-family: El Messiri;
