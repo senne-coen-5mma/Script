@@ -14,22 +14,6 @@ html {
         margin-top: 0px;
         margin: 0px;
 }
-*{
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0; 
-    }
-.container{
-        width: 85%;
-        margin: auto;
-        flex-flow: row wrap;
-    }
-.albums-flex{ display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        justify-content: space-between;
-        gap: 5%;
-        margin-bottom: 40px;
-}
 nav{
         text-align: center;
 }
@@ -67,33 +51,6 @@ nav li a:hover {
                 linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
         transition: 2s;
 }
-.top{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(0, 0, 0);
-        float: left;
-        font-family: Alphabetized Cassette Tapes;
-        font-size: 150%;
-        display: block;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-}
-.top :hover{  --h: 2em;
-        /* the height */
-        line-height: var(---h);
-        color: rgb(255, 0, 0);
-        overflow: hidden;
-        text-shadow:
-                0 var(--_t, var(--h)) rgb(245, 14, 14),
-                0 0 var(--_c, rgba(1, 173, 87, 0));
-        background:
-                linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
-        transition: 2s;
-}
 .title {
         font-family: devil breeze;
         font-size: 100px;
@@ -109,8 +66,8 @@ nav li a:hover {
 .logo {
         display: block;
         margin: auto;
-        margin-top: -28%;
-        margin-bottom: -6%;
+        margin-top: -36%;
+        margin-bottom: -6.5%;
         align-items: center;  
 }
 .Informatie{
@@ -270,6 +227,33 @@ h5{
         text-align: left;
         margin-bottom: 5px; 
         background-color: #6f69ae;
+}
+.top{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        float: left;
+        font-family: Alphabetized Cassette Tapes;
+        font-size: 150%;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+.top :hover{  --h: 2em;
+        /* the height */
+        line-height: var(---h);
+        color: rgb(255, 0, 0);
+        overflow: hidden;
+        text-shadow:
+                0 var(--_t, var(--h)) rgb(245, 14, 14),
+                0 0 var(--_c, rgba(1, 173, 87, 0));
+        background:
+                linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
+        transition: 2s;
 }
 footer {
         font-size: 25px;
