@@ -67,6 +67,33 @@ nav li a:hover {
                 linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
         transition: 2s;
 }
+.top{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        float: left;
+        font-family: Alphabetized Cassette Tapes;
+        font-size: 150%;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+.top :hover{  --h: 2em;
+        /* the height */
+        line-height: var(---h);
+        color: rgb(255, 0, 0);
+        overflow: hidden;
+        text-shadow:
+                0 var(--_t, var(--h)) rgb(245, 14, 14),
+                0 0 var(--_c, rgba(1, 173, 87, 0));
+        background:
+                linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
+        transition: 2s;
+}
 .title {
         font-family: devil breeze;
         font-size: 100px;
@@ -89,32 +116,6 @@ nav li a:hover {
 .Informatie{
         background-color: #df4540;
         color: #000000;
-}
-body{
-        font-family:El Messiri;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: normal;
-        color: #000000;
-        background-color: #ffffff;
-        text-align: left;
-        margin-bottom: 1px;
-        margin-left: 50px;
-}
-.oud-leden{
-        color: #000000;
-        background-color: #90d1df;
-}
-.Biografie{
-        background-color: #df4540;
-        color: #000000;
-}
-.leden-van-het-heden-tekst{
-        background-color: #000000;
-        color: #90d1df;
-        font-family: fEl Messiri;
-        font-size: 15px;
 }
 h2{
         font-family: devil breeze;
@@ -146,7 +147,36 @@ h2{
         text-align: left;
         margin-bottom: 1px;
 }
-#discografie img {
+.oud-leden{
+        color: #000000;
+        background-color: #90d1df;
+}
+.Biografie{
+        background-color: #df4540;
+        color: #000000;
+}
+.leden-van-het-heden-tekst{
+        background-color: #000000;
+        color: #90d1df;
+        font-family: El Messiri;
+        font-size: 15px;
+        width: 50vw;
+        text-align: center;
+        margin: auto;
+}
+body{
+        font-family:El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        background-color: #ffffff;
+        text-align: left;
+        margin-bottom: 1px;
+        margin-left: 50px;
+}
+#discografie{
         width: 400px;
 }
 .night_visions{
@@ -241,34 +271,6 @@ h5{
         margin-bottom: 5px; 
         background-color: #6f69ae;
 }
-.top{
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        background-color: rgb(0, 0, 0);
-        float: left;
-        font-family: Alphabetized Cassette Tapes;
-        font-size: 150%;
-        display: block;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-}
-.top :hover{  --h: 2em;
-        /* the height */
-        line-height: var(---h);
-        color: rgb(255, 0, 0);
-        overflow: hidden;
-        text-shadow:
-                0 var(--_t, var(--h)) rgb(245, 14, 14),
-                0 0 var(--_c, rgba(1, 173, 87, 0));
-        background:
-                linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
-        transition: 2s;
-}
-
 footer {
         font-size: 25px;
         font-style: normal;
