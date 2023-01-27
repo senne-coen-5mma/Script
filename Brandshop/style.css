@@ -1,0 +1,30 @@
+@import url(https://www.myfonts.com/collections/neue-helvetica-font-linotype);
+body{
+    background-color: rgb(27, 82, 81);
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: rgb(251, 255, 0);
+    padding: 1rem;
+}
+header nav li{
+    display: inline-block;
+}
+img{
+    width: 50px
+}
+i{
+    font-size: smaller;
+    color: rgb(0, 0, 0);
+}
+header input{
+    width: 7rem; 
+}

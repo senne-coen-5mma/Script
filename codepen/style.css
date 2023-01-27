@@ -1,0 +1,47 @@
+html{
+    background-color: black;
+    color: whitesmoke;
+    font-family: el messiri;
+}
+h1{
+    font-family: Alphabetized Cassette Tapes;
+    text-align: center;
+    font-size: 100px;
+    margin: auto;
+}
+h2{
+    font-size: 40px;
+    margin: auto;
+}
+p{
+    margin: auto;
+    font-size: 16px;
+}
+#flexbox{
+    display: flex;
+    background-color: #000094;
+    padding: 4%;
+    margin: auto;
+    flex-direction: column;
+    border-color: lightsalmon;
+}
+a{
+    color: #149900;
+    font-size: 16px;
+}
+li{
+    color: #149900;
+}
+.col-left {
+    display: block;
+    text-align: left;
+}
+.col-right{
+    display: block;
+    width: 50vw;
+}
+footer{
+    width: 40vw;
+    margin: auto;
+    text-align: center;
+}
