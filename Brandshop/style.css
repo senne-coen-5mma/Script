@@ -3,7 +3,7 @@ body{
     background-color: rgb(255, 255, 255);
     box-sizing: border-box;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: rgb(250, 242, 242);
+    color: rgb(75, 249, 0);
 }
 .flex-container{
     display: flex;
@@ -19,6 +19,7 @@ header{
 }
 header nav li{
     display: inline-block;
+    color: rgb(255, 255, 255);
 }
 img{
     width: 50px
