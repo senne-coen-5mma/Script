@@ -22,16 +22,8 @@ header nav li, nav li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-nav li:hover{
-    --h:2em;
+nav a:hover{
     color: grey;
-    overflow: hidden;
-    text-shadow:
-                0 var(--_t, var(--h)) rgb(0, 0, 0),
-                0 0 var(--_c, rgba(1, 173, 87, 0));
-        background:
-                linear-gradient(#000000 0 0) bottom/100% var(--_d, 0) no-repeat;
-        transition: 2s;
 }
 img{
     width: 50px
