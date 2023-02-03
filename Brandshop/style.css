@@ -35,3 +35,9 @@ i{
 header input{
     width: 7rem; 
 }
+/* hier begint de main*/
+#herobanner{
+    background-color: white;
+    margin: 1rem;
+    text-align: center;
+}
