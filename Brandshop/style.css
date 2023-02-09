@@ -1,7 +1,6 @@
 @import url(https://www.cssfontstack.com/Helvetica);
 body{
     background-color: rgb(255, 255, 255);
-    box-sizing: border-box;
     font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
     color: rgb(0, 0, 0);
 }
@@ -12,6 +11,7 @@ body{
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 header{
     background-color: rgb(201, 201, 201);
@@ -51,4 +51,15 @@ header input{
   }
   #trending{
     flex: content;
+    padding: 1rem;
+    margin: 1rem;
+    margin-top: -9rem;
   }
+.flex-item{
+    gap: 100;
+}
+.Trending-pictures{
+    width: 90%;
+    gap: 10px;
+    text-align: left;
+}
