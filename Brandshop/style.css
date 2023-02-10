@@ -48,7 +48,8 @@ h3{
 }
 #herobanner{
     background-color: white;
-    margin: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     padding: 2rem;
     text-align: center;
 }
@@ -66,13 +67,13 @@ video {
     margin: 1rem;
     margin-top: -9rem; 
   }
-.flex-container main{
+main flex-container{
     display: flex;
     justify-content: space-between;
     gap: 2rem;
     width: 200px;
 }
-.flex-item main{
+main flex-item {
     flex: 1;
 }
 main img {
