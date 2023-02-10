@@ -40,6 +40,12 @@ header input{
     width: 7rem; 
 }
 /* hier begint de main*/
+h2{
+    font-size: 18pt;
+}
+h3{
+    font-size: 10pt;
+}
 #herobanner{
     background-color: white;
     margin: 1rem;
@@ -51,22 +57,24 @@ header input{
     margin-bottom: 6rem;
     max-height: 100vh;
   }
-  video {
+video {
     width: 100%;
   }
-  #trending{
+#trending{
     flex: content;
     padding: 1rem;
     margin: 1rem;
-    margin-top: -9rem;
-    
+    margin-top: -9rem; 
   }
-.flex-item{
-    gap: 10;
+.flex-container main{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 200px;
+}
+.flex-item main{
     flex: 1;
 }
-.Trending-pictures{
+main img {
     width: 100%;
-    gap: 10px;
-    text-align: left;
 }
