@@ -1,7 +1,7 @@
-@import url(https://www.cssfontstack.com/Helvetica);
+@import url("https://use.typekit.net/ubg2skp.css");
 body{
     background-color: rgb(255, 255, 255);
-    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: "obviously-variable", sans-serif;
     color: rgb(0, 0, 0);
 }
 .flex-container{
@@ -16,11 +16,15 @@ body{
 header{
     background-color: rgb(201, 201, 201);
     padding: 1rem;
+    position: sticky;
+    top: 0px;
+    font-size: smaller;
 }
 header nav li, nav li a{
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
+    margin-top: 0.5vh;
 }
 nav a:hover{
     color: grey;
@@ -44,7 +48,8 @@ header input{
 }
 .videoframe {
     overflow: hidden;
-    max-height: 50vh;
+    margin-bottom: 6rem;
+    max-height: 100vh;
   }
   video {
     width: 100%;
@@ -54,12 +59,14 @@ header input{
     padding: 1rem;
     margin: 1rem;
     margin-top: -9rem;
+    
   }
 .flex-item{
-    gap: 100;
+    gap: 10;
+    flex: 1;
 }
 .Trending-pictures{
-    width: 90%;
+    width: 100%;
     gap: 10px;
     text-align: left;
 }
