@@ -17,8 +17,9 @@ header{
     background-color: rgb(201, 201, 201);
     padding: 1rem;
     position: sticky;
-    top: 0px;
+    top: 10px;
     font-size: smaller;
+    z-index: 1;
 }
 header nav li, nav li a{
     display: inline-block;
@@ -30,14 +31,18 @@ nav a:hover{
     color: grey;
 }
 img{
-    width: 50px
+    width: 50px;
+    vertical-align: middle;
 }
 i{
-    font-size: smaller;
+    font-size: medium;
     color: rgb(0, 0, 0);
+    vertical-align: middle;
 }
 header input{
-    width: 7rem; 
+    width: 10rem; 
+    padding: 5px 75px 5px 10px;
+    vertical-align: middle;
 }
 /* hier begint de main*/
 h2{
@@ -74,8 +79,6 @@ main .flex-container{
     align-items: start;
     flex-direction: row;
     flex-flow: row;
-    width: 500px;
-
 }
 
 #trending .flex-item{
@@ -84,7 +87,7 @@ main .flex-container{
 }
 
 main img {
-    width: 60%;
+    width: 100%;
 }
 
 
@@ -108,7 +111,8 @@ figcaption {
 button{
     border-radius: 100px;
     align-content: center;
-    padding: 5px 10px;
+    vertical-align: middle;
+    padding: 10px 20px;
     border-style: hidden;
     background-color: white;
     font-family: "obviously-variable", sans-serif;
