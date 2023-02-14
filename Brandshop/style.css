@@ -77,8 +77,14 @@ main .flex-container{
     width: 500px;
 
 }
+
+#trending .flex-item{
+    gap: 1%;
+    flex-direction: row;
+}
+
 main img {
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -87,7 +93,26 @@ main img {
     padding: 1rem;
     margin: 1rem;
 }
+#ontdek img{
+    width: 100%;
+}
+figure {
+    position: relative;
+}
 
+figcaption {
+    position: absolute;
+    bottom: 13%;
+    left: 15%;
+}
+button{
+    border-radius: 100px;
+    align-content: center;
+    padding: 5px 10px;
+    border-style: hidden;
+    background-color: white;
+    font-family: "obviously-variable", sans-serif;
+}
 
 
 #shop{
