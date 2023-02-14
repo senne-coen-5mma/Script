@@ -67,16 +67,31 @@ video {
     margin: 1rem;
     margin-top: -8rem; 
   }
-main flex-container{
+main .flex-container{
     display: flex;
     justify-content: space-between;
-    gap: 1rem;
+    gap: 1%;
     align-items: start;
     flex-direction: row;
-    flex-flow: row wrap;
-    width: 50px;
+    flex-flow: row;
+    width: 500px;
 
 }
 main img {
     width: 50%;
+}
+
+
+#ontdek{
+    flex: content;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+
+
+#shop{
+    flex: content;
+    padding: 1rem;
+    margin: 1rem;
 }
