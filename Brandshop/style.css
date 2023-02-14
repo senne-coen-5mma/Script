@@ -32,7 +32,6 @@ nav a:hover{
 }
 img{
     width: 50px;
-    vertical-align: middle;
 }
 i{
     font-size: medium;
@@ -42,7 +41,6 @@ i{
 header input{
     width: 10rem; 
     padding: 5px 75px 5px 10px;
-    vertical-align: middle;
 }
 /* hier begint de main*/
 h2{
