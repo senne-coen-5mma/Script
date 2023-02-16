@@ -18,7 +18,7 @@ header{
     padding: 1rem;
     position: sticky;
     top: 10px;
-    font-size: smaller;
+    font-size: 20px;
     z-index: 1;
 }
 header nav li, nav li a{
@@ -26,6 +26,10 @@ header nav li, nav li a{
     color: rgb(255, 255, 255);
     text-decoration: none;
     margin-top: 0.5vh;
+    margin: 1%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin:1% 20px 1% 20px ;
 }
 nav a:hover{
     color: grey;
