@@ -61,6 +61,7 @@ header input {
 /* hier begint de main*/
 h2 {
     font-size: 18pt;
+    font-weight: 600;
 }
 
 h3 {
@@ -147,7 +148,9 @@ button {
     padding: 1rem;
     margin: 1rem;
 }
-.sport{
+
+.sport {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
+    margin-top: 10px;
 }
