@@ -44,7 +44,6 @@ nav a:hover {
 img {
     width: 75px;
     margin-top: 5px;
-    margin-left: 20px;
     vertical-align: middle;
 }
 
@@ -72,7 +71,7 @@ h3 {
     background-color: white;
     margin-top: 1rem;
     margin-bottom: 1rem;
-    padding: 2rem;
+    padding-bottom: 1rem;
     text-align: center;
 }
 
@@ -108,7 +107,7 @@ main .flex-container {
 }
 
 main img {
-    width: 100%;
+    width: 390px;
 }
 
 
