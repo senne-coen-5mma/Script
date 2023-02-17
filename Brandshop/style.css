@@ -1,19 +1,23 @@
 @import url("https://use.typekit.net/ubg2skp.css");
-body{
+
+body {
     background-color: rgb(255, 255, 255);
     font-family: "obviously-variable", sans-serif;
     color: rgb(0, 0, 0);
 }
-.flex-container{
+
+.flex-container {
     display: flex;
     justify-content: space-between;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-header{
+
+header {
     background-color: rgb(201, 201, 201);
     padding: 1rem;
     position: sticky;
@@ -21,7 +25,9 @@ header{
     font-size: 20px;
     z-index: 1;
 }
-header nav li, nav li a{
+
+header nav li,
+nav li a {
     display: inline-block;
     color: rgb(255, 255, 255);
     text-decoration: none;
@@ -29,52 +35,63 @@ header nav li, nav li a{
     margin: 1%;
     margin-left: 20px;
     margin-right: 20px;
-    margin:1% 20px 1% 20px ;
+    margin: 1% 20px 1% 20px;
 }
-nav a:hover{
+
+nav a:hover {
     color: grey;
 }
-img{
+
+img {
     width: 50px;
 }
-i{
+
+i {
     font-size: medium;
     color: rgb(0, 0, 0);
     vertical-align: middle;
 }
-header input{
-    width: 10rem; 
+
+header input {
+    width: 10rem;
     padding: 5px 75px 5px 10px;
 }
+
 /* hier begint de main*/
-h2{
+h2 {
     font-size: 18pt;
 }
-h3{
+
+h3 {
     font-size: 10pt;
 }
-#herobanner{
+
+#herobanner {
     background-color: white;
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 2rem;
     text-align: center;
 }
+
 .videoframe {
     overflow: hidden;
     margin-bottom: 6rem;
     max-height: 100vh;
-  }
+}
+
 video {
     width: 100%;
-  }
-#trending{
+}
+
+#trending {
     flex: content;
     padding: 1rem;
     margin: 1rem;
-    margin-top: -8rem; 
-  }
-main .flex-container{
+    margin-top: -8rem;
+}
+
+main .flex-container {
     display: flex;
     justify-content: space-between;
     gap: 1%;
@@ -83,7 +100,7 @@ main .flex-container{
     flex-flow: row;
 }
 
-#trending .flex-item{
+#trending .flex-item {
     gap: 1%;
     flex-direction: row;
 }
@@ -93,14 +110,16 @@ main img {
 }
 
 
-#ontdek{
+#ontdek {
     flex: content;
     padding: 1rem;
     margin: 1rem;
 }
-#ontdek img{
+
+#ontdek img {
     width: 100%;
 }
+
 figure {
     position: relative;
 }
@@ -110,7 +129,8 @@ figcaption {
     bottom: 13%;
     left: 15%;
 }
-button{
+
+button {
     border-radius: 100px;
     align-content: center;
     vertical-align: middle;
@@ -121,12 +141,13 @@ button{
 }
 
 
-#shop{
+#shop {
     flex: content;
     padding: 1rem;
     margin: 1rem;
 }
-.info{
+
+.info {
     font-size: 10pt;
     padding: 10px;
     margin: 10px;
