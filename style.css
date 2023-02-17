@@ -2,31 +2,37 @@
     font-family: Alphabetized Cassette Tapes;
     src: url(alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf);
 }
+
 @font-face {
-    font-family: El_Messiri;
+    font-family: el messiri;
     src: url(El_Messiri/static/ElMessiri-Regular.ttf);
 }
-html{
+
+html {
     background-color: black;
     color: whitesmoke;
     font-family: el messiri;
 }
-h1{
+
+h1 {
     font-family: Alphabetized Cassette Tapes;
     text-align: center;
     font-size: 100px;
     margin: auto;
 }
-h2{
+
+h2 {
     font-size: 40px;
     margin: auto;
     text-decoration: underline;
 }
-p{
+
+p {
     margin: auto;
     font-size: 16px;
 }
-#flexbox{
+
+#flexbox {
     display: flex;
     background-color: #000094;
     padding: 4%;
@@ -35,63 +41,74 @@ p{
     width: 50vw;
     margin: auto;
 }
-a{
+
+a {
     color: #149900;
     font-size: 16px;
 }
-.artikel:hover{
+
+.artikel:hover {
     color: #000094;
     border-color: #149900;
     border-width: 2px;
     border-style: dashed;
 }
-.matchapp:hover{
+
+.matchapp:hover {
     color: #000094;
     border-color: #149900;
     border-width: 2px;
     border-style: dashed;
 }
-.bandsite:hover{
+
+.bandsite:hover {
     color: #000094;
     border-color: #149900;
     border-width: 2px;
     border-style: dashed;
 }
-.brandshop:hover{
+
+.brandshop:hover {
     color: #000094;
     border-color: #149900;
     border-width: 2px;
     border-style: dashed;
 }
-.andere:hover{
+
+.andere:hover {
     color: #000094;
     border-color: #149900;
     border-width: 2px;
     border-style: dashed;
 }
-li{
+
+li {
     color: #149900;
     margin: auto;
     list-style: none;
     text-align: center;
 }
+
 .col-left {
     display: block;
     text-align: left;
     width: 50vw;
 }
-.col-right{
+
+.col-right {
     display: block;
     text-align: right;
     width: 50vw;
 }
-footer{
+
+footer {
     width: 40vw;
     margin: auto;
     text-align: center;
     background-color: #353586;
 }
-.footer:hover{
+
+.footer:hover {
     color: #3e3e9f;
     border-color: #149900;
     border-width: 2px;
