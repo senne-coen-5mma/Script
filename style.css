@@ -3,8 +3,8 @@
     src: url(alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf);
 }
 @font-face {
-    font-family: el messiri;
-    src: url(El_Messiri/);
+    font-family: ElMessiri-Regular;
+    src: url(El_Messiri/static/ElMessiri-Regular.ttf);
 }
 html{
     background-color: black;
