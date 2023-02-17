@@ -21,7 +21,6 @@ header {
     background-color: rgb(201, 201, 201);
     padding: 1rem;
     position: sticky;
-    top: 10px;
     font-size: 20px;
     z-index: 1;
 }
@@ -43,7 +42,10 @@ nav a:hover {
 }
 
 img {
-    width: 50px;
+    width: 75px;
+    margin-top: 5px;
+    margin-left: 20px;
+    vertical-align: middle;
 }
 
 i {
@@ -145,14 +147,4 @@ button {
     flex: content;
     padding: 1rem;
     margin: 1rem;
-}
-
-.info {
-    font-size: 10pt;
-    padding: 10px;
-    margin: 10px;
-    text-align: center;
-    font-weight: 900;
-    background-color: black;
-    color: aqua;
 }
