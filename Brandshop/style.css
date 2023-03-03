@@ -142,7 +142,6 @@ button {
     font-family: "obviously-variable", sans-serif;
 }
 
-
 #shop {
     flex: content;
     padding: 1rem;
@@ -153,4 +152,41 @@ button {
     font-size: 22px;
     font-weight: 500;
     margin-top: 10px;
+}
+
+footer {
+    padding: 5vw 10vw;
+    background-color: #000000;
+    color: #666;
+}
+
+footer .flex-container:first-child {
+    margin-bottom: 2rem;
+}
+
+footer ul li {
+    font-size: 0.8rem;
+    line-height: 2;
+    list-style-type: none;
+    color: #666;
+}
+footer a{
+    color: #d1d1d1;
+    text-decoration: none;
+}
+
+footer ul li:first-child a, footer ul:first-child li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+footer i{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+footer i:hover{
+    transform: scale(1.5);
 }
