@@ -170,30 +170,33 @@ footer ul li {
     list-style-type: none;
     color: #666;
 }
-footer a{
+
+footer a {
     color: #8d8d8d;
     text-decoration: none;
 }
 
-footer a:hover{
+footer a:hover {
     color: rgb(255, 255, 255);
 }
 
-footer ul li:first-child a, footer ul:first-child li a {
+footer ul li:first-child a,
+footer ul:first-child li a {
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
     text-transform: uppercase;
 }
 
-footer i{
+footer i {
     font-size: 30px;
     color: aliceblue;
 }
 
-footer i:hover{
+footer i:hover {
     transform: scale(1.5);
 }
-.felx-item{
+
+.flex-item{
     font-size: 10px;
 }
