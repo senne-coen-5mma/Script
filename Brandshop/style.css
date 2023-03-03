@@ -197,6 +197,11 @@ footer i:hover {
     transform: scale(1.5);
 }
 
+footer .legal i {
+    font-size: 10px;
+}
+
 .flex-item{
     font-size: 10px;
+    justify-content: space-between;
 }
