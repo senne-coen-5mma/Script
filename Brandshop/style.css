@@ -171,8 +171,12 @@ footer ul li {
     color: #666;
 }
 footer a{
-    color: #d1d1d1;
+    color: #8d8d8d;
     text-decoration: none;
+}
+
+footer a:hover{
+    color: rgb(255, 255, 255);
 }
 
 footer ul li:first-child a, footer ul:first-child li a {
@@ -189,4 +193,7 @@ footer i{
 
 footer i:hover{
     transform: scale(1.5);
+}
+.felx-item{
+    font-size: 10px;
 }
