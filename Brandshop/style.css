@@ -193,7 +193,7 @@ footer i {
     color: aliceblue;
 }
 
-footer i:hover {
+footer .icons:hover {
     transform: scale(1.5);
 }
 
@@ -201,7 +201,23 @@ footer .legal i {
     font-size: 10px;
 }
 
-.flex-item{
+footer {
     font-size: 10px;
+    justify-content: space-between;
+
+}
+
+.land{
+
+}
+
+.right{
+    align-items: end;
+    padding: 20px;
+    margin-left: 300px;
+    margin-right: -100px;
+    font-size: 10pt;
+    flex-wrap: wrap-reverse;
+    text-align: end;
     justify-content: space-between;
 }
