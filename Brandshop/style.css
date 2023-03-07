@@ -197,9 +197,6 @@ footer .icons:hover {
     transform: scale(1.5);
 }
 
-footer .legal i {
-    font-size: 10px;
-}
 
 footer {
     font-size: 10px;
@@ -207,11 +204,7 @@ footer {
 
 }
 
-.land{
-
-}
-
-.right{
+.right {
     align-items: end;
     padding: 20px;
     margin-left: 300px;
