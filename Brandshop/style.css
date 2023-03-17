@@ -68,8 +68,7 @@ h3 {
     font-size: 100%;
 }
 
-#herobanner {
-    background-color: white;
+#herobanner { 
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -91,6 +90,7 @@ video {
     padding: 1rem;
     margin: 1rem;
     margin-top: -8rem;
+    color: black;
 }
 
 main .flex-container {
@@ -117,6 +117,8 @@ main img {
     padding: 1rem;
     margin: 1rem;
     flex: content;
+    background-image: url(/Script/Brandshop/assets/balckest_black.png);
+    color: white;
 }
 
 #ontdek img {
@@ -160,7 +162,7 @@ footer {
     color: #666;
     font-size: 10px;
     justify-content: space-between;
-    background-image: url(/Script/Brandshop/assets/balckest_black.png);
+    background-color: black;
 }
 
 footer .flex-container:first-child {
