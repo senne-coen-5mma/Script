@@ -143,6 +143,10 @@ button {
     background-color: white;
     font-family: "obviously-variable", sans-serif;
 }
+button:hover{
+    background-color: rgb(209, 209, 209);
+    color: rgb(255, 255, 255);
+}
 
 #shop {
     flex: content;
