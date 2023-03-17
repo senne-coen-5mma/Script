@@ -20,7 +20,6 @@ body {
 header {
     background-color: rgb(201, 201, 201);
     padding: 1rem;
-    position: sticky;
     font-size: 20px;
     z-index: 1;
 }
@@ -68,7 +67,7 @@ h3 {
     font-size: 100%;
 }
 
-#herobanner { 
+#herobanner {
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding-bottom: 1rem;
@@ -115,7 +114,7 @@ main img {
 #ontdek {
     flex: content;
     padding: 1rem;
-    margin: 1rem;
+    margin: rem;
     flex: content;
     background-image: url(https://htmlcolorcodes.com/assets/images/colors/black-color-solid-background-1920x1080.png);
     color: white;
