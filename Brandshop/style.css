@@ -116,6 +116,7 @@ main img {
     flex: content;
     padding: 1rem;
     margin: 1rem;
+    flex: content;
 }
 
 #ontdek img {
@@ -156,10 +157,10 @@ button {
 
 footer {
     padding: 5vw 10vw;
-    background-image: ;
     color: #666;
     font-size: 10px;
     justify-content: space-between;
+    background-image: url(/Script/Brandshop/assets/balckest_black.png);
 }
 
 footer .flex-container:first-child {
@@ -197,12 +198,6 @@ footer i {
 
 footer .icons:hover {
     transform: scale(1.5);
-}
-
-
-footer {
-    background-image: ;
-
 }
 
 .right {
