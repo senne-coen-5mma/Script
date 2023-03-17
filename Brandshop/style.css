@@ -117,7 +117,7 @@ main img {
     padding: 1rem;
     margin: 1rem;
     flex: content;
-    background-image: url(/Script/Brandshop/assets/balckest_black.png);
+    background-image: url(assets/balckest_black.png);
     color: white;
 }
 
