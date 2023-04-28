@@ -48,6 +48,13 @@ header img {
     margin: repeat(3,-30);
 }
 
+body img{
+    grid-template-columns: repeat(3,1fr);
+    width: 33%;
+    display: inline;
+    align-items: start;
+}
+
 footer {
     background-color: var(--bgc-03);
 }
