@@ -5,7 +5,11 @@
     --bgc-02: #549df0;
     --bgc-03: #490052;
     --bgc-04: #000000;
-    --txt-01: hsl(0, 0%, 90%);
+    --txt-01: #e6f1df;
+    --txt-02: #549df0;
+    --txt-03: #490052;
+    --txt-04: #000000;
+
 }
 
 * {
@@ -15,15 +19,35 @@
 }
 
 body {
-    background-color: #e6f1df;
+    background-color: var(--bgc-01);
     color: var(--bgc-01);
     font-family: "Segoe Print";
     line-height: 1;
 }
-header{
+
+header {
     background-color: var(--bgc-04);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--txt-01);
+    font-size: 30px;
+}
+header nav li{
+    display: inline;
+    justify-items: end;
+    align-items: center;
 }
 
 header img {
-    width: 20rem;
+    width: 15rem;
+    margin: repeat(3,-30);
+}
+
+footer {
+    background-color: var(--bgc-03);
 }
