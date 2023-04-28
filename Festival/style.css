@@ -1,0 +1,29 @@
+@import url("https://use.typekit.net/hfi1kak.css");
+
+:root {
+    --bgc-01: #e6f1df;
+    --bgc-02: #549df0;
+    --bgc-03: #490052;
+    --bgc-04: #000000;
+    --txt-01: hsl(0, 0%, 90%);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body {
+    background-color: #e6f1df;
+    color: var(--bgc-01);
+    font-family: "Segoe Print";
+    line-height: 1;
+}
+header{
+    background-color: var(--bgc-04);
+}
+
+header img {
+    width: 20rem;
+}
