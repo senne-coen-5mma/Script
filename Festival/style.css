@@ -29,7 +29,7 @@ header {
     background-color: var(--bgc-04);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: start; 
+    align-items: center; 
 }
 
 header a {
@@ -49,9 +49,13 @@ header img {
     margin: repeat(3, -30);
 }
 
-body img {
-    grid-template-columns: repeat(3, 1fr);
-    width: 33%;
-    display: inline;
+img {
+    display: block;
+    width: 100%;
     align-items: start;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
