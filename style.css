@@ -74,7 +74,8 @@ a {
     border-width: 2px;
     border-style: dashed;
 }
-.festival:hover {
+
+.festival:hover{
     color: #000094;
     border-color: #149900;
     border-width: 2px;
