@@ -28,8 +28,8 @@ body {
 header {
     background-color: var(--bgc-04);
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: start;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: start; 
 }
 
 header a {
@@ -37,7 +37,8 @@ header a {
     color: var(--txt-01);
     font-size: 30px;
 }
-header nav li{
+
+header nav li {
     display: inline;
     justify-items: end;
     align-items: center;
@@ -45,11 +46,11 @@ header nav li{
 
 header img {
     width: 15rem;
-    margin: repeat(3,-30);
+    margin: repeat(3, -30);
 }
 
-body img{
-    grid-template-columns: repeat(3,1fr);
+body img {
+    grid-template-columns: repeat(3, 1fr);
     width: 33%;
     display: inline;
     align-items: start;
