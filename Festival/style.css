@@ -54,7 +54,3 @@ body img{
     display: inline;
     align-items: start;
 }
-
-footer {
-    background-color: var(--bgc-03);
-}
