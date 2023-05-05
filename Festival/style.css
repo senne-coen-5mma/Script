@@ -50,7 +50,7 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
-    padding: 10%;
+    padding: 20px;
 }
 
 header a {
@@ -79,12 +79,12 @@ img {
 #line-up img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
-    padding: 10px 20px;
 }
 
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 
 }
 
@@ -92,15 +92,19 @@ figure {
     position: relative;
 }
 
-span p{
-    background-color: #549df0;
-    opacity: 0%;
-    font-size: 20pt;
-}
-
 figcaption {
     position: absolute;
-    bottom: 12%;
-    left: 15%;
+    bottom: 0;
     z-index: 1;
+    width: 100%;
+}
+
+span {
+    display: block;
+    width: 100%;
+    padding: 2rem 0;
+    background-color: hsla(212, 84%, 64%, 0.5);
+    font-size: 20px;
+    text-align: center;
+    font-size: 300%;
 }
