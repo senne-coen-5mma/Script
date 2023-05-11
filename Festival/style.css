@@ -80,6 +80,7 @@ img {
     color: var(--txt-04);
     font-size: 430%;
     padding: 10px;
+    margin-bottom: 1%;
 }
 
 #line-up img {
@@ -123,6 +124,7 @@ footer img{
     width: 500px;
     padding: 20px;
     margin: 0px 0px 10px 0px;
+    display: block;
 }
 footer i{
     font-size: 50px;
