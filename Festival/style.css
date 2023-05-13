@@ -76,6 +76,10 @@ img {
     align-items: start;
 }
 
+body a {
+    text-decoration: none;
+}
+
 .Line-up {
     color: var(--txt-04);
     font-size: 430%;
@@ -86,6 +90,20 @@ img {
 #line-up img {
     aspect-ratio: 1 / 1;
     object-fit: cover;
+}
+
+#AlecBenjamin {
+    color: var(--txt-04);
+    font-family: "calibri", sans-serif;
+    padding: 50px 0;
+}
+
+#AlecBenamain img {
+    padding: 10px;
+}
+i{
+    font-size: 200px;
+    column-count: 1;
 }
 
 .container {
@@ -115,27 +133,36 @@ span {
     font-size: 300%;
 }
 
-footer{
+iframe {
+    padding: 10px;
+    margin: 0px;
+}
+
+footer {
     background-color: var(--bgc-03);
     text-align: center;
 }
-footer img{
+
+footer img {
     justify-content: center;
     width: 500px;
     padding: 20px;
     margin: 0px 0px 10px 0px;
     display: block;
 }
-footer i{
+
+footer i {
     font-size: 50px;
     margin: 10px 0 10px 0;
 }
-footer p{
+
+footer p {
     font-size: 30px;
     margin: 10px 0 10px 0;
 
 }
-.copyright{
+
+.copyright {
     font-family: "calibri", sans-serif;
     font-size: 20px;
     padding: 10px 0 10px 0;
