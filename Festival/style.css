@@ -104,6 +104,7 @@ body a {
 i{
     font-size: 50px;
     color: var(--txt-02);
+    justify-content: center;
 }
 
 .container {
