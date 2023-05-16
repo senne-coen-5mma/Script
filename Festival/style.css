@@ -142,13 +142,14 @@ iframe {
 footer {
     background-color: var(--bgc-03);
     text-align: center;
+    padding-bottom: 20px;
 }
 
 footer img {
     justify-content: center;
     width: 500px;
     padding: 20px;
-    margin: 0px 0px 10px 0px;
+    margin: 0 auto;
     display: block;
 }
 
@@ -159,7 +160,7 @@ footer i {
 
 footer p {
     font-size: 30px;
-    margin: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
 
 }
 
