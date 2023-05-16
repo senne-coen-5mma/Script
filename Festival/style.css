@@ -85,6 +85,7 @@ body a {
     font-size: 430%;
     padding: 10px;
     margin-bottom: 1%;
+    margin-left: 8px;
 }
 
 #line-up img {
@@ -150,15 +151,22 @@ span {
 }
 
 iframe {
+    width: 100%;
     padding: 10px;
-    margin: 0px;
+    margin: 0;
 }
-
+.artiest-footer {
+    background-color: var(--bgc-03);
+    text-align: center;
+    margin-top: -224px;
+    padding-bottom: 20px;
+}
 footer {
     background-color: var(--bgc-03);
     text-align: center;
     padding-bottom: 20px;
 }
+
 
 footer img {
     justify-content: center;
