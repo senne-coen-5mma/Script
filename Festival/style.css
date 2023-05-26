@@ -53,6 +53,12 @@ h4 {
     margin-left: 120px;
 }
 
+h5{
+    margin-left: 30px;
+    font-size: 50px;
+    color: #000000;
+}
+
 body {
     background-color: var(--bgc-01);
     color: var(--bgc-01);
@@ -116,6 +122,10 @@ body a {
 
 #artists img {
     padding: 10px;
+}
+
+a span{
+    color: var(--txt-01);
 }
 
 #artists p {
