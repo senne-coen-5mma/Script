@@ -116,7 +116,7 @@ body a {
     padding: 10% 0 0 0;
 }
 
-.icons :hover{
+.icons :hover {
     color: var(--bgc-03);
 }
 
@@ -159,12 +159,14 @@ iframe {
     padding: 10px;
     margin: 0;
 }
+
 .artiest-footer {
     background-color: var(--bgc-03);
     text-align: center;
     margin-top: -224px;
     padding-bottom: 20px;
 }
+
 footer {
     background-color: var(--bgc-03);
     text-align: center;
