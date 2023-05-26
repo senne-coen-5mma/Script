@@ -93,17 +93,17 @@ body a {
     object-fit: cover;
 }
 
-#AlecBenjamin {
+#artists {
     color: var(--txt-04);
     font-family: "calibri", sans-serif;
     padding: 50px 0;
 }
 
-#AlecBenjamin img {
+#artists img {
     padding: 10px;
 }
 
-#AlecBenjamin p {
+#artists p {
     padding: 0 20%;
     padding-top: 8px;
     font-size: 15px;
