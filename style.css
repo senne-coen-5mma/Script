@@ -75,7 +75,26 @@ a {
     border-style: dashed;
 }
 
-.festival:hover{
+.festival:hover {
+    color: #000094;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
+.websitemetAI:hover{
+    color: #000094;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
+.bootstrap:hover{
+    color: #000094;
+    border-color: #149900;
+    border-width: 2px;
+    border-style: dashed;
+}
+
+.jquery:hover{
     color: #000094;
     border-color: #149900;
     border-width: 2px;
@@ -99,6 +118,12 @@ li {
 .col-left {
     display: block;
     text-align: left;
+    width: 50vw;
+}
+
+.col-mid {
+    display: block;
+    text-align: center;
     width: 50vw;
 }
 
