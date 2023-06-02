@@ -269,4 +269,7 @@ footer p {
         display: flex;
         flex-direction: column;
     }
+    main img{
+        width: 50%;
+    }
 }
