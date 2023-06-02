@@ -96,9 +96,22 @@ header input#burger {
 }
 
 header label[for="burger"] {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 0;
     display: none;
+    width: 100%;
+    padding: 1rem 1ch;
+    background-color: none;
+    text-align: right;
+    cursor: var(--txt-02);
 }
 
+header label[for="burger"] i {
+    margin: 0;
+    font-size: 1.25rem;
+}
 img {
     display: block;
     width: 100%;
@@ -234,7 +247,26 @@ footer p {
 
 }
 
-@media(width <=750px) {
+@media (width <=750px) {
     header label[for="burger"] {
         display: block;
-    }}
+    }
+
+    header nav ul {
+        position: fixed;
+        z-index: 3;
+        top: 8rem;
+        right: 0;
+        display: none;
+        padding-right: 1ch;
+        width: 30%;
+        user-select: none;
+        background-color: var(--bgc-04);
+        text-align: center;
+    }
+
+    header input#burger:checked+label[for="burger"]+nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+}
