@@ -247,7 +247,7 @@ footer p {
 
 }
 
-@media (width <=750px) {
+@media (width <=751.1px) {
     header label[for="burger"] {
         display: block;
         margin: 30px 30px 0 0;
