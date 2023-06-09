@@ -112,6 +112,7 @@ header label[for="burger"] i {
     margin: 0;
     font-size: 1.25rem;
 }
+
 img {
     display: block;
     width: 100%;
@@ -120,7 +121,7 @@ img {
 
 body a {
     text-decoration: none;
-    cursor:wait;
+    cursor: wait;
 }
 
 .Line-up {
@@ -247,9 +248,17 @@ footer p {
 
 }
 
-@media (width <=750px) {
+@media (max-width: 750px) {
     header label[for="burger"] {
         display: block;
+    }
+
+    #line-up .container {
+        grid-template-columns: repeat(1, 9fr);
+    }
+
+    #artists .container2 {
+        grid-template-columns: repeat(1, 9fr);
     }
 
     header nav ul {
@@ -258,7 +267,7 @@ footer p {
         top: 8rem;
         right: 0;
         display: none;
-        padding-right: 1ch;
+        padding-right: 1;
         width: 30%;
         user-select: none;
         background-color: var(--bgc-04);
@@ -268,8 +277,5 @@ footer p {
     header input#burger:checked+label[for="burger"]+nav ul {
         display: flex;
         flex-direction: column;
-    }
-    main img{
-        width: 50%;
     }
 }
