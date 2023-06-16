@@ -1,6 +1,7 @@
 @import url("https://use.typekit.net/hfi1kak.css");
 @import url("https://use.typekit.net/mox8aly.css");
 
+
 :root {
     --bgc-01: #e6f1df;
     --bgc-02: #549df0;
@@ -118,6 +119,7 @@ img {
     width: 100%;
     align-items: start;
 }
+
 
 body a {
     text-decoration: none;
@@ -283,4 +285,37 @@ footer p {
         display: flex;
         flex-direction: column;
     }
+}
+
+@keyframes scale {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes opacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 100;
+    }
+}
+
+#line-up .grid-card {
+    animation: scale 2s ease-out 1;
+}
+
+main img {
+    animation: opacity 2s ease-out 1;
+}
+
+main img {
+    background-color: var(--bgc-04);
+    transition: background-color 0.5s ease;
 }
