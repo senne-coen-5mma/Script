@@ -1,0 +1,10 @@
+body {
+    background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.76) 12.91%, #0C3720 87.68%);
+    box-shadow: 26px 24px 90px rgba(87, 183, 171, 0.19);
+    position: absolute;
+    width: 1440px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
+
+}
