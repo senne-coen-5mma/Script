@@ -2,27 +2,27 @@
 body {
     margin: 0;
     line-height: normal;
-  }
-  
-  /* Define CSS variables */
-  :root {
+}
+
+/* Define CSS variables */
+:root {
     /* Fonts */
     --font-poppins: Poppins;
-  
+
     /* Font sizes */
     --font-size-sm: 14px;
-  
+
     /* Colors */
     --color-white: #fff;
     --light: #f8f8fd;
-  
+
     /* Border radiuses */
     --br-11xs: 2px;
     --br-12xl: 31px;
-  }
-  
-  /* Shared styles for background and container elements */
-  .background {
+}
+
+/* Shared styles for background and container elements */
+.background {
     position: absolute;
     top: 0;
     left: 0;
@@ -30,43 +30,43 @@ body {
     height: 800px;
     background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.76), #0c3720);
     box-shadow: 26px 24px 90px rgba(87, 183, 171, 0.19);
-  }
-  
-  /* Styles for the skull icon */
-  .skull-icon {
+}
+
+/* Styles for the skull icon */
+.skull-icon {
     position: absolute;
     top: 0;
     left: 417.25px;
     width: 522.93px;
-    height: 471px;
-  }
-  
-  /* Styles for text content */
-  .ghost-in-the,
-  .lorem-ipsum-dolor {
+    height: px;
+}
+
+/* Styles for text content */
+.ghost-in-the,
+.lorem-ipsum-dolor {
     position: absolute;
     width: 100%;
     left: 0;
-  }
-  
-  /* Styles for "Ghost in the Shell" text */
-  .ghost-in-the {
+}
+
+/* Styles for "Ghost in the Shell" text */
+.ghost-in-the {
     top: calc(50% - 137px);
     text-transform: uppercase;
     display: flex;
     align-items: flex-end;
-  }
-  
-  /* Styles for lorem ipsum text */
-  .lorem-ipsum-dolor {
+}
+
+/* Styles for lorem ipsum text */
+.lorem-ipsum-dolor {
     top: calc(50% + 65px);
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     display: inline-block;
-  }
-  
-  /* Styles for the main text container */
-  .text {
+}
+
+/* Styles for the main text container */
+.text {
     position: absolute;
     width: 37.5%;
     top: calc(50% - 190px);
@@ -74,31 +74,31 @@ body {
     left: 11.46%;
     height: 274px;
     font-size: 64px;
-  }
-  
-  /* Styles for the button and "Watch Now" text */
-  .button1,
-  .watch-now {
+}
+
+/* Styles for the button and "Watch Now" text */
+.button1,
+.watch-now {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  
-  /* Styles for the button element */
-  .button1 {
+}
+
+/* Styles for the button element */
+.button1 {
     border-radius: var(--br-11xs);
     background-color: #06331b;
     width: 200px;
     height: 60px;
-  }
-  
-  /* Styles for the "Watch Now" text */
-  .watch-now {
+}
+
+/* Styles for the "Watch Now" text */
+.watch-now {
     font-weight: 500;
-  }
-  
-  /* Styles for the play sign icon */
-  .play-sign-icon {
+}
+
+/* Styles for the play sign icon */
+.play-sign-icon {
     position: absolute;
     height: 85.71%;
     width: 16.37%;
@@ -109,79 +109,79 @@ body {
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-  }
-  
-  /* Styles for the button container */
-  .button,
-  .watch-now-button {
+}
+
+/* Styles for the button container */
+.button,
+.watch-now-button {
     position: absolute;
     top: 20px;
     left: 45px;
     width: 109.97px;
     height: 21px;
-  }
-  
-  /* Styles for the main button */
-  .button {
+}
+
+/* Styles for the main button */
+.button {
     top: 544px;
     left: 165px;
     width: 200px;
     height: 60px;
     text-align: center;
-  }
-  
-  /* Styles for the scroll elements */
-  .klik-icon,
-  .round {
+}
+
+/* Styles for the scroll elements */
+.klik-icon,
+.round {
     position: absolute;
     border-radius: var(--br-12xl);
-  }
-  
-  /* Styles for the round element */
-  .round {
+}
+
+/* Styles for the round element */
+.round {
     top: -1px;
     left: -1px;
     border: 2px solid var(--light);
     box-sizing: border-box;
     width: 36px;
     height: 56px;
-  }
-  
-  /* Styles for the klik icon */
-  .klik-icon {
+}
+
+/* Styles for the klik icon */
+.klik-icon {
     top: 10px;
     left: 16px;
     width: 2px;
     height: 10px;
-  }
-  
-  /* Styles for the CPU mouse element */
-  .cpu-mouse {
+}
+
+/* Styles for the CPU mouse element */
+.cpu-mouse {
     position: absolute;
     top: 0;
     left: 20px;
     width: 34px;
     height: 54px;
-  }
-  
-  /* Styles for the scroll text */
-  .scroll1 {
+}
+
+/* Styles for the scroll text */
+.scroll1 {
     top: 67px;
     left: 0;
     line-height: 120%;
     display: inline-block;
     width: 74px;
-  }
-  
-  /* Styles for the "Kreed" and scroll elements */
-  .kreed,
-  .scroll,
-  .scroll1 {
+}
+
+/* Styles for the "Kreed" and scroll elements */
+.kreed,
+.scroll,
+.scroll1 {
     position: absolute;
-  }
-  
-  /* Styles for the scroll container */
-  .scroll {
+}
+
+/* Styles for the scroll container */
+.scroll {
     top: 687px;
     left: 683px;
     width: 74px;
@@ -189,17 +189,17 @@ body {
     text-align: center;
     font-size: 13px;
     color: var(--light);
-  }
-  
-  /* Styles for the "Kreed" text */
-  .kreed {
+}
+
+/* Styles for the "Kreed" text */
+.kreed {
     top: 0;
     left: 35.45%;
     font-weight: 500;
-  }
-  
-  /* Styles for the rectangle around the logo */
-  .rectangle-around-logo {
+}
+
+/* Styles for the rectangle around the logo */
+.rectangle-around-logo {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -209,10 +209,10 @@ body {
     left: 0;
     border-radius: 6px;
     background-color: var(--color-white);
-  }
-  
-  /* Styles for the logo icon */
-  .k-icon {
+}
+
+/* Styles for the logo icon */
+.k-icon {
     position: absolute;
     height: 45.16%;
     width: 45.16%;
@@ -224,11 +224,11 @@ body {
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-  }
-  
-  /* Styles for the logo and logo container */
-  .logo,
-  .logo1 {
+}
+
+/* Styles for the logo and logo container */
+.logo,
+.logo1 {
     position: absolute;
     height: 83.33%;
     width: 27.27%;
@@ -236,43 +236,48 @@ body {
     right: 72.73%;
     bottom: 8.33%;
     left: 0;
-  }
-  
-  /* Styles for the smaller logo */
-  .logo {
+}
+
+/* Styles for the smaller logo */
+.logo {
     height: 85.71%;
     width: 9.91%;
     top: 7.14%;
     right: 90.09%;
     bottom: 7.14%;
     font-size: 24px;
-  }
-  
-  /* Styles for the "Home About Us" text */
-  .home-about-us {
+}
+
+/* Styles for the "Home About Us" text */
+.home-about-us {
     position: absolute;
     top: 26.19%;
     left: 55.41%;
     font-weight: 500;
     text-align: right;
-  }
-  
-  /* Styles for the login button and container */
-  .button2,
-  .login,
-  .login1 {
+}
+.mid{
+    list-style-type: none;
+    list-style: none;
+    display: block;
+}
+
+/* Styles for the login button and container */
+.button2,
+.login,
+.login1 {
     position: absolute;
-  }
-  
-  /* Styles for the "Login" text */
-  .login1 {
+}
+
+/* Styles for the "Login" text */
+.login1 {
     top: 26.19%;
     left: 36.15%;
     font-weight: 500;
-  }
-  
-  /* Styles for the login button */
-  .login {
+}
+
+/* Styles for the login button */
+.login {
     height: 100%;
     width: 11.71%;
     top: 0;
@@ -280,19 +285,19 @@ body {
     bottom: 0;
     left: 88.29%;
     text-align: center;
-  }
-  
-  /* Styles for the navigation container */
-  .navigation {
+}
+
+/* Styles for the navigation container */
+.navigation {
     position: absolute;
     top: 30px;
     left: 165px;
     width: 1110px;
     height: 42px;
-  }
-  
-  /* Main container styles */
-  .hero-13 {
+}
+
+/* Main container styles */
+.hero-13 {
     position: relative;
     background-color: var(--color-white);
     width: 100%;
@@ -302,5 +307,4 @@ body {
     font-size: var(--font-size-sm);
     color: var(--color-white);
     font-family: var(--font-poppins);
-  }
-  
+}
