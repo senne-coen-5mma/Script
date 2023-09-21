@@ -1,3 +1,24 @@
+body {
+    margin: 0;
+    line-height: normal;
+}
+
+:root {
+    /* fonts */
+    --font-poppins: Poppins;
+
+    /* font sizes */
+    --font-size-sm: 14px;
+
+    /* Colors */
+    --color-white: #fff;
+    --light: #f8f8fd;
+
+    /* Border radiuses */
+    --br-11xs: 2px;
+    --br-12xl: 31px;
+}
+
 .hero-13-child {
     position: absolute;
     top: 0;
@@ -6,33 +27,38 @@
     box-shadow: 26px 24px 90px rgba(87, 183, 171, 0.19);
     width: 1440px;
     height: 800px;
-  }
-  .skull-icon {
+}
+
+.skull-icon {
     position: absolute;
     top: 0;
     left: 417.25px;
     width: 1022.75px;
     height: 954px;
-  }
-  .ghost-in-the,
-  .lorem-ipsum-dolor {
+}
+
+.ghost-in-the,
+.lorem-ipsum-dolor {
     position: absolute;
     width: 100%;
     left: 0;
-  }
-  .ghost-in-the {
+}
+
+.ghost-in-the {
     top: calc(50% - 137px);
     text-transform: uppercase;
     display: flex;
     align-items: flex-end;
-  }
-  .lorem-ipsum-dolor {
+}
+
+.lorem-ipsum-dolor {
     top: calc(50% + 65px);
     font-size: 16px;
     color: rgba(255, 255, 255, 0.7);
     display: inline-block;
-  }
-  .ghost-in-the-shell-parent {
+}
+
+.ghost-in-the-shell-parent {
     position: absolute;
     width: 37.5%;
     top: calc(50% - 190px);
@@ -40,23 +66,27 @@
     left: 11.46%;
     height: 274px;
     font-size: 64px;
-  }
-  .button-child,
-  .watch-now {
+}
+
+.button-child,
+.watch-now {
     position: absolute;
     top: 0;
     left: 0;
-  }
-  .button-child {
+}
+
+.button-child {
     border-radius: var(--br-11xs);
     background-color: #06331b;
     width: 200px;
     height: 60px;
-  }
-  .watch-now {
+}
+
+.watch-now {
     font-weight: 500;
-  }
-  .group-child {
+}
+
+.group-child {
     position: absolute;
     height: 85.71%;
     width: 16.37%;
@@ -67,77 +97,89 @@
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-  }
-  .button,
-  .watch-now-parent {
+}
+
+.button,
+.watch-now-parent {
     position: absolute;
     top: 20px;
     left: 45px;
     width: 109.97px;
     height: 21px;
-  }
-  .button {
+}
+
+.button {
     top: 544px;
     left: 165px;
     width: 200px;
     height: 60px;
     text-align: center;
-  }
-  .scroll-child,
-  .scroll-item {
+}
+
+.scroll-child,
+.scroll-item {
     position: absolute;
     border-radius: var(--br-12xl);
-  }
-  .scroll-child {
+}
+
+.scroll-child {
     top: -1px;
     left: -1px;
     border: 2px solid var(--light);
     box-sizing: border-box;
     width: 36px;
     height: 56px;
-  }
-  .scroll-item {
+}
+
+.scroll-item {
     top: 10px;
     left: 16px;
     width: 2px;
     height: 10px;
-  }
-  .scroll1 {
+}
+
+.scroll1 {
     position: absolute;
     top: 0;
     left: 20px;
     width: 34px;
     height: 54px;
-  }
-  .scroll,
-  .scroll2 {
+}
+
+.scroll,
+.scroll2 {
     position: absolute;
     width: 74px;
-  }
-  .scroll2 {
+}
+
+.scroll2 {
     top: 67px;
     left: 0;
     line-height: 120%;
     display: inline-block;
-  }
-  .scroll {
+}
+
+.scroll {
     top: 687px;
     left: 683px;
     height: 83px;
     text-align: center;
     font-size: 13px;
     color: var(--light);
-  }
-  .group-item,
-  .kreed {
+}
+
+.group-item,
+.kreed {
     position: absolute;
     top: 0;
-  }
-  .kreed {
+}
+
+.kreed {
     left: 35.45%;
     font-weight: 500;
-  }
-  .group-item {
+}
+
+.group-item {
     height: 100%;
     width: 100%;
     right: 0;
@@ -145,8 +187,9 @@
     left: 0;
     border-radius: 6px;
     background-color: var(--color-white);
-  }
-  .k-icon {
+}
+
+.k-icon {
     position: absolute;
     height: 45.16%;
     width: 45.16%;
@@ -158,9 +201,10 @@
     max-width: 100%;
     overflow: hidden;
     max-height: 100%;
-  }
-  .logo,
-  .rectangle-parent {
+}
+
+.logo,
+.rectangle-parent {
     position: absolute;
     height: 83.33%;
     width: 27.27%;
@@ -168,23 +212,26 @@
     right: 72.73%;
     bottom: 8.33%;
     left: 0;
-  }
-  .logo {
+}
+
+.logo {
     height: 85.71%;
     width: 9.91%;
     top: 7.14%;
     right: 90.09%;
     bottom: 7.14%;
     font-size: 24px;
-  }
-  .home-about-us {
+}
+
+.home-about-us {
     position: absolute;
     top: 26.19%;
     left: 55.41%;
     font-weight: 500;
     text-align: right;
-  }
-  .group-inner {
+}
+
+.group-inner {
     position: absolute;
     height: 102.38%;
     width: 100.77%;
@@ -195,14 +242,16 @@
     border-radius: var(--br-11xs);
     border: 1px solid var(--color-white);
     box-sizing: border-box;
-  }
-  .lets-talk {
+}
+
+.lets-talk {
     position: absolute;
     top: 26.19%;
     left: 36.15%;
     font-weight: 500;
-  }
-  .rectangle-group {
+}
+
+.rectangle-group {
     position: absolute;
     height: 100%;
     width: 11.71%;
@@ -211,15 +260,17 @@
     bottom: 0;
     left: 88.29%;
     text-align: center;
-  }
-  .top-navigation {
+}
+
+.top-navigation {
     position: absolute;
     top: 30px;
     left: 165px;
     width: 1110px;
     height: 42px;
-  }
-  .hero-13 {
+}
+
+.hero-13 {
     position: relative;
     background-color: var(--color-white);
     width: 100%;
@@ -229,5 +280,4 @@
     font-size: var(--font-size-sm);
     color: var(--color-white);
     font-family: var(--font-poppins);
-  }
-  
+}
