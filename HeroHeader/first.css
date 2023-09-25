@@ -297,9 +297,6 @@ body {
     left: 165px;
     width: 1110px;
     height: 42px;
-    display: inline-block;
-    list-style: none;
-    justify-self: end;
 }
 
 li {

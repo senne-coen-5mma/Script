@@ -1,0 +1,345 @@
+@font-face {
+        font-family: Alphabetized Cassette Tapes;
+        src: url(alphabetized_cassette_tapes/Alphabetized\ Cassette\ Tapes.ttf);
+}
+
+@font-face {
+        font-family: devil breeze;
+        src: url(devil-breeze/Devil\ Breeze\ Medium.ttf);
+}
+
+@font-face {
+        font-family: el messiri;
+        src: url(El_Messiri/ElMessiri-Regular.ttf);
+}
+
+html {
+        margin-top: 0px;
+        margin: 0px;
+}
+
+nav {
+        text-align: center;
+}
+
+nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+}
+
+nav li {
+        float: left;
+        margin: auto;
+}
+
+nav li a {
+        font-family: Alphabetized Cassette Tapes;
+        font-size: 180%;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+nav li a:hover {
+        --h: 2em;
+        /* the height */
+        line-height: var(---h);
+        color: rgb(255, 0, 0);
+        overflow: hidden;
+        text-shadow:
+                0 var(--_t, var(--h)) rgb(245, 14, 14),
+                0 0 var(--_c, rgba(1, 173, 87, 0));
+        background:
+                linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
+        transition: 2s;
+}
+
+body {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        background-color: #ffffff;
+        text-align: left;
+        margin-bottom: 1px;
+        margin-left: 50px;
+}
+
+h2 {
+        font-family: devil breeze;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: #df4540;
+}
+
+h3 {
+        font-family: Devil Breeze;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: #fedc1c;
+        margin: auto;
+        list-style: none;
+}
+
+h4 {
+        font-family: Devil Breeze;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 5px;
+        background-color: #90d1df;
+        width: 50vw;
+        margin: auto;
+        list-style: none;
+}
+
+h5 {
+        font-family: Devil Breeze;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 5px;
+        background-color: #6f69ae;
+}
+
+.title {
+        font-family: devil breeze;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 700;
+        letter-spacing: normal;
+        margin-top: -20%;
+        color: #000000;
+        text-align: center;
+        line-height: 1.3;
+        padding: 20%;
+}
+
+.logo {
+        display: block;
+        margin: auto;
+        margin-top: -36%;
+        margin-bottom: -6.5%;
+        align-items: center;
+}
+
+.Informatie {
+        background-color: #df4540;
+        color: #000000;
+}
+
+.oud-leden {
+        color: #000000;
+        background-color: #90d1df;
+}
+
+.Biografie {
+        background-color: #df4540;
+        color: #000000;
+}
+
+.leden-van-het-heden-tekst {
+        background-color: #000000;
+        color: #90d1df;
+        font-family: El Messiri;
+        font-size: 15px;
+        width: 50vw;
+        text-align: center;
+        margin: auto;
+}
+
+.pic-leden {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.Albums {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+        flex-direction: row;
+}
+
+#discografie {
+        width: 400px;
+        flex-direction: row;
+}
+
+.img1 {
+        width: 50vw;
+        width: 360px;
+        display: flex;
+        justify-content: space-between;flex-direction: row;
+}
+
+.night_visions {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-between;flex-direction: row;
+}
+
+.smoke_mirrors {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+        display: flex;
+        justify-content: space-between;flex-direction: row;
+}
+
+.evolve {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+        width: 400px;
+}
+
+.origins {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: rgb(0, 0, 0);
+        text-align: left;
+        margin-bottom: 1px;
+}
+
+.mercury1 {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+}
+
+.mercury2 {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+}
+
+.night_visions_anniversary {
+        font-family: El Messiri;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #000000;
+        text-align: left;
+        margin-bottom: 1px;
+}
+
+.top {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(0, 0, 0);
+        float: left;
+        font-family: Alphabetized Cassette Tapes;
+        font-size: 150%;
+        display: block;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+}
+
+.top :hover {
+        --h: 2em;
+        /* the height */
+        line-height: var(---h);
+        color: rgb(255, 0, 0);
+        overflow: hidden;
+        text-shadow:
+                0 var(--_t, var(--h)) rgb(245, 14, 14),
+                0 0 var(--_c, rgba(1, 173, 87, 0));
+        background:
+                linear-gradient(#00bfff 0 0) bottom/100% var(--_d, 0) no-repeat;
+        transition: 2s;
+}
+
+footer {
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: normal;
+        color: #6f69ae;
+        text-align: left;
+        margin-bottom: 5px;
+}
+
+footer ul {
+        font-family: Alphabetized Cassette Tapes;
+        list-style: none;
+}
+
+.website {
+        font-family: Alphabetized Cassette Tapes;
+        background-color: #000000;
+        color: #6f69ae;
+        text-align: left;
+        margin-bottom: 5px;
+}
+
+#twitter {
+        color: #00bfff;
+}
+
+.footer {
+        color: #6f69ae;
+}

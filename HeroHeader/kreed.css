@@ -1,0 +1,15 @@
+div {
+    display: flex;
+
+}
+
+.navigation {
+    display: inline-block;
+    list-style: none;
+    justify-self: end;
+}
+
+.login {
+    border-style: solid;
+    border-width: 1px;
+}
