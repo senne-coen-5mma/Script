@@ -1,6 +1,24 @@
-div {
-    display: flex;
+:root {
+    --font-poppins: Poppins;
+    --font-size-sm: 14px;
+    --color-white: #fff;
+    --light: #f8f8fd;
+    --br-11xs: 2px;
+    --br-12xl: 31px;
+}
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1440px;
+    height: 800px;
+    background: linear-gradient(136.16deg, rgba(91, 135, 75, 0.76), #0c3720);
+    box-shadow: 26px 24px 90px rgba(87, 183, 171, 0.19);
+}
 
+.flex-container {
+    display: flex;
+    justify-content: flex-end;
 }
 
 .navigation {
@@ -12,4 +30,22 @@ div {
 .login {
     border-style: solid;
     border-width: 1px;
+}
+#text .flex-item{
+display: block;
+flex-direction: column;
+}
+
+.ghost-in-the,
+.lorem-ipsum-dolor {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.ghost-in-the {
+    top: calc(50% - 137px);
+    text-transform: uppercase;
+    display: flex;
+    align-items: flex-end;
 }
