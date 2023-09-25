@@ -256,7 +256,8 @@ body {
     font-weight: 500;
     text-align: right;
 }
-.mid{
+
+.mid {
     list-style-type: none;
     list-style: none;
     display: block;
@@ -274,6 +275,8 @@ body {
     top: 26.19%;
     left: 36.15%;
     font-weight: 500;
+    border-style: solid;
+    border-width: 1²px;
 }
 
 /* Styles for the login button */
@@ -294,6 +297,13 @@ body {
     left: 165px;
     width: 1110px;
     height: 42px;
+    display: inline-block;
+    list-style: none;
+    justify-self: end;
+}
+
+li {
+    display: inline;
 }
 
 /* Main container styles */
