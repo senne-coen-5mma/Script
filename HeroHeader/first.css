@@ -133,62 +133,36 @@ body {
 /* Styles for the scroll elements */
 .klik-icon,
 .round {
-    position: absolute;
-    border-radius: var(--br-12xl);
 }
 
 /* Styles for the round element */
 .round {
-    top: -1px;
-    left: -1px;
-    border: 2px solid var(--light);
-    box-sizing: border-box;
-    width: 36px;
-    height: 56px;
+    
 }
 
 /* Styles for the klik icon */
 .klik-icon {
-    top: 10px;
-    left: 16px;
-    width: 2px;
-    height: 10px;
+    
 }
 
 /* Styles for the CPU mouse element */
 .cpu-mouse {
-    position: absolute;
-    top: 0;
-    left: 20px;
-    width: 34px;
-    height: 54px;
+    
 }
 
 /* Styles for the scroll text */
 .scroll1 {
-    top: 67px;
-    left: 0;
-    line-height: 120%;
-    display: inline-block;
-    width: 74px;
 }
 
 /* Styles for the "Kreed" and scroll elements */
 .kreed,
 .scroll,
 .scroll1 {
-    position: absolute;
 }
 
 /* Styles for the scroll container */
 .scroll {
-    top: 687px;
-    left: 683px;
-    width: 74px;
-    height: 83px;
-    text-align: center;
-    font-size: 13px;
-    color: var(--light);
+    
 }
 
 /* Styles for the "Kreed" text */
