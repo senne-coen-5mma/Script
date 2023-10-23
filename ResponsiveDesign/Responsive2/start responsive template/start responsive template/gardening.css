@@ -14,7 +14,7 @@ font-family:;
 
 /* ---- COLORS ---- */
 /* 
-color:#fff; texkt kleur
+color:#fff; text kleur
 color:#EF6D58; accent collor
 color:#28293E;
 */
@@ -37,7 +37,7 @@ body {
 }
 
 .container {
-    max-width: 90%;
+    width: 90%;
     margin: auto;
     padding: 10px 0;
 }
@@ -90,26 +90,25 @@ header {}
 
 .name,
 .sub,
-.headline,
-.work {
+.headline {
     padding-top: 10px;
 }
 
 .name {
     color: #EF6D58;
+    ;
     font-size: 1rem;
     text-transform: uppercase;
     font-weight: 300;
     line-height: 2rem;
-    letter-spacing: 3px;
-    padding-top: 10px;
+    letter-spacing: 0.1875rem;
 }
 
 
 .headline {
     font-size: 3.5rem;
     text-transform: capitalize;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 4rem;
     letter-spacing: -0.0625rem;
 }
@@ -117,8 +116,8 @@ header {}
 .sub {
     font-size: 1rem;
     letter-spacing: 1px;
-    font-weight: 200;
-    color: rgba(225, 255, 255, 0.64);
+    font-weight: 300;
+    color: rgba(255, 255, 255, 0.64);
     line-height: 2rem;
 }
 
@@ -135,7 +134,7 @@ header {}
 
 /* ---- MEDIA QUERIES ---- */
 
-@media (min-width:768px) {
+@media (min-width: 400px) {
     .nav-links {
         display: flex;
         gap: 10px;
@@ -146,4 +145,22 @@ header {}
         display: none;
     }
 
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .hero_txt,.hero_img {
+        padding: 0px 2%;
+    }
+}
+
+@media(min-width: 1024px){
+    .hero{
+        justify-content: space-between;
+align-items: center;
+    }
+    .hero_txt, .hero_img{
+        width: 40px;
+    }
 }
