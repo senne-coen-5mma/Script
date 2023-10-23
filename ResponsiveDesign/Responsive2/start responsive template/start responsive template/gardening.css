@@ -1,0 +1,149 @@
+/*
+Font-sizes in em/rem
+Element width in % of vw
+left, right margin en padding %
+flexbox
+*/
+
+/* ---- FONTS ---- */
+/* 
+font-family:font-family: 'Epilogue', sans-serif;
+font-family:;
+font-family:;
+*/
+
+/* ---- COLORS ---- */
+/* 
+color:#fff; texkt kleur
+color:#EF6D58; accent collor
+color:#28293E;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #28293E;
+    font-family: 'Epilogue', sans-serif;
+    color: #fff;
+}
+
+.container {
+    max-width: 90%;
+    margin: auto;
+    padding: 10px 0;
+}
+
+header {}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: none;
+    flex-direction: column;
+}
+
+.nav-links li {
+    margin: 5px 0;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+
+.name,
+.sub,
+.headline,
+.work {
+    padding-top: 10px;
+}
+
+.name {
+    color: #EF6D58;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 2rem;
+    letter-spacing: 3px;
+    padding-top: 10px;
+}
+
+
+.headline {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: 4rem;
+    letter-spacing: -0.0625rem;
+}
+
+.sub {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: 200;
+    color: rgba(225, 255, 255, 0.64);
+    line-height: 2rem;
+}
+
+.work {
+    background-color: #EF6D58;
+    color: #fff;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding: 15px 15px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* ---- MEDIA QUERIES ---- */
+
+@media (min-width:768px) {
+    .nav-links {
+        display: flex;
+        gap: 10px;
+        flex-direction: row;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+}

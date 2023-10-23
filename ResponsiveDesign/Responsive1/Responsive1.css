@@ -1,0 +1,90 @@
+/*
+Font sizes in em/rem
+Element width in % of vw
+Element height in % of vh
+left, right margin en padding in %
+flexbox
+*/
+
+/* --------- FONTS --------- */
+/* 
+font-family: 'Chathura';
+font-family: 'Mouse-Memoirs';
+*/
+
+/* --------- COLORS --------- */
+/* 
+color:#f9faf8; white
+color:#276dd4; blue
+color:#746789; purple
+color:#c5bb3e; mustard
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    background-color: #f9faf8;
+}
+
+
+
+h1 {
+    font-family: 'Chathura';
+    font-size: 4rem;
+    text-align: center;
+    color: #746789;
+}
+
+h2 {
+    font-family: 'Chathura';
+    font-size: 2.8rem;
+    text-align: center;
+    color: #746789;
+}
+
+nav {
+    font-family: 'Mouse-Memoirs';
+    font-size: 1rem;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #c5bb3e;
+    padding: 20px;
+}
+
+nav a {
+    color: #276dd4;
+}
+
+p {
+    font-family: 'Mouse-Memoirs';
+    font-size: 1rem;
+    text-align: center;
+    color: #276dd4;
+    padding-bottom: 1%;
+}
+.fotogalerij {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    gap: 15px;
+}
+
+/* MEDIA QUERIES*/
+
+@media (min-width:550px){
+    .fotogalerij {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
