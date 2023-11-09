@@ -287,10 +287,6 @@ body {
   --br-12xl: 31px;
 }
 
-.hamburger {
-  display: none;
-}
-
 @media(max-width:375px) {
   img {
     display: flex;
@@ -303,32 +299,23 @@ body {
 
   .background {
     width: 375px;
-    height: 984px;
+    height: 795px;
   }
 
 }
 
 @media (max-width: 768px) {
-  .nav-links {
-    list-style: none;
-    padding: 0;
-    padding-left: 10rem;
+  img {
     display: flex;
     flex-direction: column;
   }
 
-  .hamburger {
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
-    cursor: pointer;
-    padding-top: 17px;
-    padding-right: 10px;
+  .lorem-ipsum-dolor {
+    padding: 90px 0;
   }
 
-  .hamburger div {
-    width: 30px;
-    height: 3px;
-    background-color: #fff;
+  .background {
+    width: 768px;
+    height: 795px;
   }
 }
