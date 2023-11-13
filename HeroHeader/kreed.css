@@ -1,5 +1,5 @@
 * {
-  box-sizing: border box;
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -7,10 +7,11 @@
 body {
   font-family: 'Poppins', sans-serif;
   padding-left: 21px;
-  margin-right: 21px;
   background-color: #71976B;
   width: 100%;
 }
+
+
 
 header {
   color: #fff;
@@ -31,7 +32,7 @@ nav {
 }
 
 .nav-menu li {
-  margin-right: 20px;
+  padding-right: 2vw;
 }
 
 .nav-menu a {
@@ -53,7 +54,6 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
 }
 
 .logo-text {
@@ -66,7 +66,7 @@ nav {
 
 .login-box {
   border: 1px solid #fff;
-  padding: 5px 10px;
+  padding: 10% 20%;
   border-radius: 3px;
 }
 
@@ -82,6 +82,7 @@ img {
   border: none;
   border-radius: 3px;
   font-size: 0.875rem;
+  margin-top: 3%;
   cursor: pointer;
   transition: background-color 0.3s;
 
@@ -93,8 +94,8 @@ img {
 
 .tekst {
   align-items: center;
-  padding-left: 10rem;
-  padding-top: 5rem;
+  padding-left: 5%;
+  padding-top: 80px;
 }
 
 .tekst h1 {
@@ -108,6 +109,7 @@ img {
   display: block;
 }
 
+
 .muis {
   display: flex;
   justify-content: center;
@@ -119,20 +121,98 @@ img {
 }
 
 .skull {
-  width: 120rem;
-  padding-right: 2rem;
+  width: 100%;
+  padding-right: 1%;
 }
 
-@media(max-width:768px), (max-height:1603px) {
+header input#burger {
+  display: none;
+}
+
+header label[for="burger"] {
+  position: fixed;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  display: none;
+  padding: 1rem 1ch;
+  background-color: none;
+  text-align: right;
+  cursor: pointer;
+}
+
+header label[for="burger"] i {
+  margin: 0;
+  font-size: 3rem;
+  color: var(--txt-01);
+}
+
+@media(max-width:768px) {
+
   .flex-container {
     display: flex;
     flex-direction: column;
   }
 
+  .skull {
+    z-index: -1;
+    margin-top: -20%;
+  }
+
+  .tekst {
+    margin-top: -10%;
+    margin-right: 20%;
+  }
+
+  .muis {
+    margin-top: -10%;
+  }
+
+  header label[for="burger"] {
+    display: block;
+    margin: 30px 30px 0 0;
+  }
+
+  header input#burger:checked+label[for="burger"]+nav ul {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
-@media(max-width:375px), (max-height:1603px) {
-  body {
+@media(max-width:375px) {
+  .flex-container {
+    display: flex;
+    flex-direction: column;
+  }
 
+  .skull {
+    z-index: -1;
+    margin-top: -30%;
+  }
+
+  .tekst p {
+    margin-right: 20%;
+  }
+
+  .tekst {
+    margin-top: -20%
+  }
+
+  h1 {
+    margin-right: 20%;
+  }
+
+  .muis {
+    margin-top: -10%;
+  }
+
+  header label[for="burger"] {
+    display: block;
+    margin: 30px 30px 0 0;
+  }
+
+  header input#burger:checked+label[for="burger"]+nav ul {
+    display: flex;
+    flex-direction: column;
   }
 }
